@@ -70,6 +70,7 @@ y_predicted = np.where(y_predicted > 0.5, 1, 0)     #above 0.5 is spam returns 1
 y_predicted
 ```
 ## confusion matrix representation using seaborn
+![alt text](https://github.com/utkarshh27/Spam-SMS-Classification/blob/29a85cdf146a555f859a4305da3c437487dc5ad7/cm.png?raw=true)
 ```
 cm = confusion_matrix(y_test, y_predicted)
 cm 
